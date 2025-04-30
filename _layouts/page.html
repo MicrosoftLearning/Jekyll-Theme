@@ -5,8 +5,8 @@ layout: default
 <body data-spy="scroll" data-target="#linksMenu">
     <nav class="navbar navbar-expand-lg navbar-dark bg-gray">
         <div class="container d-flex justify-content-between">
-            <img src="https://github.com/MicrosoftLearning/Jekyll-Theme/raw/master/assets/microsoft-gray.png" alt="Microsoft logo" style="width:100px;height:21px;"/>
-            <span class="my-1 title text-black">Microsoft Worldwide Learning</span>
+            <!-- <img src="https://github.com/MicrosoftLearning/Jekyll-Theme/raw/master/assets/microsoft-gray.png" alt="Microsoft logo" style="width:100px;height:21px;"/>-->
+            <span class="my-1 title text-black">{% if site.title %}{{ site.title }}</span>
             <span class="ml-2"><a href="{{ site.github.url }}">&#8801;</a></span>
         </div>
         <!--
