@@ -4,8 +4,15 @@ pre code {
     display: block;
 }
 
+ol li code,
+ul li code {
+    font-size: .875rem;
+    color: #a10101;
+}
+
 p code {
-    font-size: 0.8rem;
+    font-size: .875rem;
+    color: #a10101;
 }
 
 code,
