@@ -23,15 +23,15 @@ p {
 a:active,
 a:hover,
 a:visited {
-    color: #0078d7;
+    color: #8a6fc1;
 }
 
 a {
     word-wrap: break-word;
 }
 
-main ol > ol,
-main ul > ul {
+main ol>ol,
+main ul>ul {
     margin: 0 0 0 20px;
 }
 
@@ -59,7 +59,7 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #f5f1e8;
     color: #222;
     font-size: 100%;
     line-height: 160%;
@@ -68,13 +68,21 @@ body {
 }
 
 a {
-    color: #0050C5;
+    color: #6b4ba1;
     cursor: pointer;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+a svg {
+    fill: #6b4ba1;
+}
+
+a:hover svg {
+    fill: #8a6fc1;
 }
 
 small {
@@ -88,8 +96,8 @@ ul {
 }
 
 blockquote {
-    border-color: #bff1ff;
-    color: inherit;
+    border-color: #e3e3e3;
+    color: #000;
     font-size: smaller;
     padding: 20px;
     margin-top: 15px;
@@ -122,16 +130,16 @@ article img {
 }
 
 .bg-azure {
-    background-color: #0078d7;
+    background-color: #6b4ba1;
 }
 
 .bg-note,
 blockquote {
-    background-color: #d9f6ff;
+    background-color: #fff;
 }
 
 .text-azure {
-    color: #0078d7;
+    color: #6b4ba1;
 }
 
 h5,
@@ -231,9 +239,9 @@ nav.toc ul.nav {
 .toc a:focus,
 .toc li:focus,
 .toc ul:focus {
-    -moz-box-shadow: inset 0 0 0 2px #0050C5;
-    -webkit-box-shadow: inset 0 0 0 2px #0050C5;
-    box-shadow: inset 0 0 0 2px #0050C5;
+    -moz-box-shadow: inset 0 0 0 2px #6b4ba1;
+    -webkit-box-shadow: inset 0 0 0 2px #6b4ba1;
+    box-shadow: inset 0 0 0 2px #6b4ba1;
 }
 
 nav.toc ul.nav {
@@ -267,11 +275,11 @@ nav.toc>ul.nav a.nav-link {
 }
 
 nav.toc>ul.nav a.nav-link:hover {
-    color: #0078d7;
+    color: #8a6fc1;
 }
 
 nav.toc>ul.nav a.nav-link.active {
-    background-color: #0050c5;
+    background-color: #6b4ba1;
     color: #FFF;
 }
 
